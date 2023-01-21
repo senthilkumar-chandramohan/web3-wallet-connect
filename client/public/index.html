@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Web3 Metamask Wallet Connect</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <button id="connectWallet">Connect Wallet</button>
+                </div>
+                <div class="col-6">
+                    <input id="receiver" placeholder="Receiver" value="0x5263045fb9E6c6f73e23D0170b9D57B51801a1Bb" /><br />
+                    <input id="noOfCoins" placeholder="No. of Coins" value="10" /><br />
+                    <button id="sendCoins">Send Coins</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input id="address" value="0x642AB5973938d429db75dE1bBC38f6C6D303c64f" />
+                    <button id="getBalance">Get Balance</button>
+                </div>
+            </div>
+        </div>
+        <script src="./js/bundle.js" async defer></script>
+    </body>
+</html>
